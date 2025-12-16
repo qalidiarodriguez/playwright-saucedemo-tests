@@ -64,7 +64,7 @@ npm install
 npx playwright install
 # 4. Ejecutar pruebas
 npx playwright test --headed
-
+```
 
 ## 📖 Para Aprender Más
 Este proyecto es parte de un proceso educativo continuo. Si estás comenzando en automatización de pruebas, te recomiendo:
