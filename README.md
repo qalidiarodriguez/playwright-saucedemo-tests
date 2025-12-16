@@ -20,6 +20,52 @@ Este proyecto sirve como **ejemplo visual y práctico** de cómo se estructura u
 
 3. **Explora la estructura:** Revisa todos los archivos para entender qué se necesita para un proyecto de testing.
 
+## 📊 Reporte Visual de Pruebas - Enfoque QA Automation
+
+Como profesional de QA Automation, no solo ejecuto pruebas, sino que también **documento y comunico resultados de manera visual**. Aquí muestro cómo presento los reportes de mis pruebas automatizadas:
+
+### 🖼️ Evidencia Visual de Ejecución
+
+**1. Reporte General de Playwright**
+![Reporte General de Playwright](screenshots/playwright-report-general.png)
+*Este reporte muestra el resumen completo de 18 pruebas ejecutadas, con 14 exitosas y 4 que requieren ajuste. Como QA, es crucial mostrar tanto los éxitos como las áreas de mejora.*
+
+**2. Detalle de Pruebas Específicas**
+![Detalle de Pruebas](screenshots/playwright-test-details.png)
+*Aquí se visualizan pruebas individuales con sus pasos, tiempos de ejecución y estado. Esta trazabilidad es esencial para debugging y para demostrar cobertura de testing.*
+
+### 🎯 Por qué esta documentación visual es importante:
+
+| Aspecto QA | Valor |
+|------------|-------|
+| **Transparencia** | Muestra resultados reales, no solo teóricos |
+| **Trazabilidad** | Cada prueba puede seguirse paso a paso |
+| **Comunicación** | Facilita explicar resultados a no-técnicos |
+| **Profesionalismo** | Demuestra metodología estructurada |
+
+### 📁 Estructura de evidencias en este proyecto:
+playwright-saucedemo-tests/
+├── screenshots/ # ← Carpeta de evidencias visuales
+│ ├── playwright-report-general.png
+│ └── playwright-test-details.png
+├── test-results/ # Evidencias automáticas de Playwright
+├── playwright-report/ # Reporte HTML completo
+└── tests/ # Código de pruebas
+
+### 🔍 Cómo replicar este enfoque en tus proyectos:
+   ```bash
+1. **Ejecuta pruebas con reporte HTML:**
+   
+   npx playwright test --reporter=html
+   
+2. Toma screenshots del reporte en http://localhost:9323
+
+3. Organiza las imágenes en una carpeta screenshots/
+
+4. Documenta qué muestra cada imagen y por qué es relevante
+   ```
+💡 Insight de QA: Un buen reporte no solo dice "pasó/falló", sino que cuenta la historia del testing - qué se probó, cómo se probó y qué se aprendió en el proceso.
+
 ## 📚 Pasos completos de instalación y aprendizaje
 
 Para aprender **desde cero** cómo crear un proyecto como este, visita el repositorio educativo completo:
