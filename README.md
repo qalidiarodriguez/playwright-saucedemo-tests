@@ -56,8 +56,7 @@ Allí encontrarás:
 
 ## 🚀 Cómo Ejecutar este Proyecto
 
-```bash
-# 1. Clonar el repositorio
+`# 1. Clonar el repositorio
 git clone https://github.com/qalidiarodriguez/playwright-saucedemo-tests.git
 
 # 2. Instalar dependencias
@@ -67,7 +66,7 @@ npm install
 npx playwright install
 
 # 4. Ejecutar pruebas
-npx playwright test --headed
+npx playwright test --headed`
 
 
 ## 📖 Para Aprender Más
