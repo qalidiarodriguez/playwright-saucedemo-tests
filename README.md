@@ -44,6 +44,7 @@ Como profesional de QA Automation, no solo ejecuto pruebas, sino que también **
 | **Profesionalismo** | Demuestra metodología estructurada |
 
 ### 📁 Estructura de evidencias en este proyecto:
+
 playwright-saucedemo-tests/
 ├── screenshots/ # ← Carpeta de evidencias visuales
 │ ├── playwright-report-general.png
@@ -54,7 +55,7 @@ playwright-saucedemo-tests/
 
 ### 🔍 Cómo replicar este enfoque en tus proyectos:
    ```bash
-1. **Ejecuta pruebas con reporte HTML:**
+1. Ejecuta pruebas con reporte HTML:
    
    npx playwright test --reporter=html
    
