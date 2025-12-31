@@ -1,4 +1,4 @@
-﻿# 🧪 Mis Primeras Pruebas con Playwright
+# 🧪 Mis Primeras Pruebas con Playwright
 
 ¡Hola! Este es mi primer proyecto de pruebas automatizadas usando Playwright.
 
