@@ -1,4 +1,4 @@
-﻿const { test, expect } = require('@playwright/test');
+﻿import { test, expect } from '@playwright/test';
 
 // Configuración: se ejecuta antes de cada prueba
 test.beforeEach(async ({ page }) => {
